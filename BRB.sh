@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# Clear screen once at start and hide cursor
 clear
 tput civis
 trap "tput cnorm; clear; exit" INT TERM EXIT
@@ -31,9 +30,7 @@ EOF
   sleep 0.35
 }
 
-# Infinite animation loop
 while true; do
-  # 1. Normal resting state ( -.-)
   draw_frame "z"      "-_-" "⠋"
   draw_frame "zz"     "-_-" "⠙"
   draw_frame "zzz"    "-_-" "⠹"
@@ -41,10 +38,8 @@ while true; do
   draw_frame "  zzz"  "-_-" "⠼"
   draw_frame " zzz"   "-_-" "⠴"
   
-  # 2. Quick blink transition (holds ~0.35s)
   draw_frame "zzz"    "-_-" "⠦"
   
-  # 3. Wide-eyed state ( •.• ) held for ~4 seconds (11 frames * 0.35s = ~3.85s)
   draw_frame "zz"     "•_•" "⠧"
   draw_frame "z"      "•_•" "⠇"
   draw_frame ""       "•_•" "⠏"
