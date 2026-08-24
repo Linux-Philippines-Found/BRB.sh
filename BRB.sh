@@ -52,6 +52,5 @@ while true; do
   draw_frame "zzz"    "•_•" "⠦"
   draw_frame "zz"     "•_•" "⠧"
   
-  # 4. Blink again before repeating
   draw_frame "z"      "-_-" "⠇"
 done
