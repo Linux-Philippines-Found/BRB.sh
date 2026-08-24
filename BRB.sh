@@ -35,7 +35,7 @@ while true; do
   draw_frame "zz"     "-_-" "⠙"
   draw_frame "zzz"    "-_-" "⠹"
   draw_frame " zzz"   "-_-" "⠸"
-  draw_frame "  zzz"  "-_-" "⠼"
+  draw_frame "  zZz"  "-_-" "⠼"
   draw_frame " zzz"   "-_-" "⠴"
   
   draw_frame "zzz"    "-_-" "⠦"
@@ -47,7 +47,7 @@ while true; do
   draw_frame "zz"     "•_•" "⠙"
   draw_frame "zzz"    "•_•" "⠹"
   draw_frame " zzz"   "•_•" "⠸"
-  draw_frame "  zzz"  "•_•" "⠼"
+  draw_frame "  zZz"  "•_•" "⠼"
   draw_frame " zzz"   "•_•" "⠴"
   draw_frame "zzz"    "•_•" "⠦"
   draw_frame "zz"     "•_•" "⠧"
